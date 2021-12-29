@@ -1,7 +1,9 @@
 # Login-Page
 
 Proyek ini adalah proyek gabut lagi dengan tema Login Page. Seperti halaman login lainnya, proyek ini memiliki fungsi untuk mencari apakah username yang dimasukkan oleh user berada dalam database, dan membandingkan passwordnya. Untuk databasenya saya menggunakan REST API yang saya buat dengan website myjson. Dan untuk designnya, saya menggunakan design dalam foto dibawah ini
-<img alt="Login-Form" src="https://www.sketchappsources.com/resources/source-image/login-form-johnnythedesigner.jpg" />
+<br>
+<br>
+<img alt="Login-Form" width="450px" src="https://www.sketchappsources.com/resources/source-image/login-form-johnnythedesigner.jpg" />
  
 Teknologi dan alat yang digunakan: 
  
@@ -20,6 +22,6 @@ JavaScript
 Library jQuery
 <img alt="jQuery" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" />
 #
-Other libraries:
+Library lainnya:
 - Fontawesome
 #
