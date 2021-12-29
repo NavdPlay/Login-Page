@@ -6,11 +6,11 @@ Proyek ini adalah proyek gabut lagi dengan tema Login Page. Seperti halaman logi
 <img alt="Login-Form" width="450px" src="https://www.sketchappsources.com/resources/source-image/login-form-johnnythedesigner.jpg" />
 
 User dan password yang bisa digunakan:
-1. Username: usersatu
+1. Username: usersatu<br>
    Password: adminsatu
-2. Username: userdua
+2. Username: userdua<br>
    Password: admindua
-1. Username: usertiga
+1. Username: usertiga<br>
    Password: admintiga
    
 #
