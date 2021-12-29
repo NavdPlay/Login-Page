@@ -12,6 +12,8 @@ User dan password yang bisa digunakan:
    Password: admindua
 1. Username: usertiga
    Password: admintiga
+   
+#
  
 Teknologi dan alat yang digunakan: 
  
@@ -29,8 +31,12 @@ JavaScript
 <br>
 Library jQuery
 <img alt="jQuery" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" />
+
 #
+
 Library lainnya:
 - Fontawesome
+
 #
+
 Link Demo: https://navdplay.github.io/Login-Page/
