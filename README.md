@@ -40,3 +40,5 @@ Library lainnya:
 #
 
 Link Demo: https://navdplay.github.io/Login-Page/
+
+*Note: Untuk saat ini link demo hanya menampilkan website, namun belum bisa fetch API, karena url API yang digunakan tidak diizinkan dalam protokol HTTPS. Jika ingin menggunakan full feature, silahkan save / download repo ini.
