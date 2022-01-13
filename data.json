@@ -1,18 +1,15 @@
 [
 	{
-		"userId": 1,
 		"id": 1,
 		"username": "usersatu",
 		"password": "adminsatu"
 	},
 	{
-		"userId": 1,
 		"id": 2,
 		"username": "userdua",
 		"password": "admindua"
 	},
 	{
-		"userId": 1,
 		"id": 3,
 		"username": "usertiga",
 		"password": "admintiga"
