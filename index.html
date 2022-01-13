@@ -111,26 +111,6 @@
       font-weight: 500;
     }
 
-    .check {
-      position: relative;
-      left: 10.5%;
-      padding-bottom: 30px;
-    }
-
-    .check > input {
-      transform: scale(1.2);
-      margin-right: 5px;
-    }
-
-    .check > span {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 12.5px;
-      position: relative;
-      bottom: 1px;
-      color: #757575;
-      font-weight: 500;
-    }
-
     button {
       background-color: #746BDE;
       position: absolute;
@@ -159,7 +139,7 @@
       font-size: 12px;
       font-weight: 500;
       color: #757575;
-      bottom: 25px;
+      bottom: 147px;
       left: 50%;
       transform: translateX(-50%);
       cursor: pointer;
@@ -183,12 +163,8 @@
         <input id="passwordInput" type="password" placeholder="Password">
         <i class="far fa-eye" id=eye" onclick="showPassword(this)"></i>
       </div>
-      <label class="check">
-        <input type="checkbox">
-        <span>Keep me signed in</span>
-      </label>
       <button id="signInBtn" onclick="auth()">SIGN IN</button>
-      <!-- <label class="forgot">Forgot your password?</label> -->
+      <label class="forgot">Forgot your password?</label>
     </div>
   </div>
 
@@ -203,18 +179,18 @@
       $('.input-box').css({
         'top': '0'
       });
-      $('.check').css({
-        'top': '0'
+      $('.forgot').css({
+        'bottom': '149px'
       });
-
-      let response = await fetch('http://myjson.dit.upm.es/api/bins/51t1');
+      
+      let response = await fetch('data.json');
       let users = await response.json();
-
+      
       var userInput = $('#usernameInput').val();
       var passInput = $('#passwordInput').val();
-
+      
       var i = 0;
-
+      
       for (i; i < users.length; i++) {
         if (userInput == users[i]['username']) {
           if (passInput == users[i]['password']) {
@@ -230,8 +206,8 @@
             $('.input-box').css({
               'top': '55px'
             });
-            $('.check').css({
-              'top': '55px'
+            $('.forgot').css({
+              'bottom': '135px'
             });
           }
           break;
@@ -248,8 +224,8 @@
         $('.input-box').css({
           'top': '55px'
         });
-        $('.check').css({
-          'top': '55px'
+        $('.forgot').css({
+          'bottom': '135px'
         });
       }
     }
@@ -257,18 +233,18 @@
     var passwordShow = false;
 
     function showPassword(x) {
-        if (passwordShow) {
-          x.classList.remove('fa-eye-slash');
-          x.classList.add('fa-eye');
-          $('#passwordInput').attr('type', 'password');
-          passwordShow = false;
-        } else {
-          x.classList.remove('fa-eye');
-          x.classList.add('fa-eye-slash');
-          $('#passwordInput').attr('type', 'text');
-          passwordShow = true;
-        }
+      if (passwordShow) {
+        x.classList.remove('fa-eye-slash');
+        x.classList.add('fa-eye');
+        $('#passwordInput').attr('type', 'password');
+        passwordShow = false;
+      } else {
+        x.classList.remove('fa-eye');
+        x.classList.add('fa-eye-slash');
+        $('#passwordInput').attr('type', 'text');
+        passwordShow = true;
       }
+    }
   </script>
 </body>
 </html>
