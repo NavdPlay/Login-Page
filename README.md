@@ -1,6 +1,6 @@
 # Login-Page
 
-Proyek ini adalah proyek gabut lagi dengan tema Login Page. Seperti halaman login lainnya, proyek ini memiliki fungsi untuk mencari apakah username yang dimasukkan oleh user berada dalam database, dan membandingkan passwordnya. Untuk databasenya saya menggunakan REST API yang saya buat dengan website myjson. Dan untuk designnya, saya menggunakan design dalam foto dibawah ini
+Proyek ini adalah proyek gabut lagi dengan tema Login Page. Seperti halaman login lainnya, proyek ini memiliki fungsi untuk mencari apakah username yang dimasukkan oleh user berada dalam database, dan membandingkan passwordnya. Untuk databasenya saya menggunakan file json yang menyimpan id, username, dan password user. Dan untuk designnya, saya menggunakan design dalam foto dibawah ini
 <br>
 <br>
 <img alt="Login-Form" width="450px" src="https://www.sketchappsources.com/resources/source-image/login-form-johnnythedesigner.jpg" />
@@ -40,5 +40,3 @@ Library lainnya:
 #
 
 Link Demo: https://navdplay.github.io/Login-Page/
-
-*Note: Untuk saat ini link demo hanya menampilkan website, namun belum bisa fetch API, karena url API yang digunakan tidak diizinkan dalam protokol HTTPS. Jika ingin menggunakan full feature, silahkan save / download repo ini.
