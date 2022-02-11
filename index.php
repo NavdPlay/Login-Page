@@ -11,7 +11,7 @@ $bool2 = false;
     for ($i; $i < $length; $i++) {
       if ($_POST['username'] == $data[$i]['username'] || $_POST['username'] == $data[$i]['email']) {
         if (password_verify($_POST['password'], $data[$i]['password'])) {
-          header('Location: success.php');
+          header('Location: success.html');
           break;
         } else {
           $bool1 = true;
