@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"username": "usersatu",
+		"password": "$2y$10$q46ztJbjro8up8kq4zT.eeg9Dazt6NO4b8Lps8YFbC\/X0xXWV1QUC",
+		"email": "usersatu@example.com"
+	},
+	{
+		"id": 2,
+		"username": "userdua",
+		"password": "$2y$10$xgBBubWpa4YiBvJq2\/3eyu0TxRKxw.8wUEZQpiLj2uvoL2tKsi\/JS",
+		"email": "userdua@example.com"
+	},
+	{
+		"id": 3,
+		"username": "usertiga",
+		"password": "$2y$10$ZKChj8JMGvNHLNc1gz\/vT.dQ\/TfdBQSptkpEK7PhfGR8y9aXbWFUi",
+		"email": "usertiga@example.com"
+	},
+	{
+		"id": 4,
+		"username": "NavdPlay",
+		"password": "$2y$10$N8UT44.s.JboSBhdVTAJ.erSi9i.9z78mFeC5MTkc9Mqo722VXeES",
+		"email": "naadiralatilla11@gmail.com"
+	}
+]
