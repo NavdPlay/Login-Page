@@ -1,11 +1,11 @@
 # Login-Page
 
-Proyek ini adalah proyek gabut lagi dengan tema Login Page. Seperti halaman login lainnya, proyek ini memiliki fungsi untuk mencari apakah username yang dimasukkan oleh user berada dalam database, dan membandingkan passwordnya. Untuk databasenya saya menggunakan file json yang menyimpan id, username, dan password user. Dan untuk designnya, saya menggunakan design dalam foto dibawah ini
+This project is another "bored project" with a Login Page theme. Like other login pages, this project has a function to find if the username entered by the user is in the database, and compares the passwords. For the database I use a json file which stores the user id, username, and password. And for the design, I used the design in the photo below
 <br>
 <br>
 <img alt="Login-Form" width="450px" src="https://www.sketchappsources.com/resources/source-image/login-form-johnnythedesigner.jpg" />
 
-User dan password yang bisa digunakan:
+Users and passwords that you can use:
 1. Username: usersatu<br>
    Password: adminsatu
 2. Username: userdua<br>
@@ -15,7 +15,7 @@ User dan password yang bisa digunakan:
    
 #
  
-Teknologi dan alat yang digunakan: 
+Technology and tools used: 
  
 Visual Studio Code 
 <img alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
@@ -34,9 +34,9 @@ Library jQuery
 
 #
 
-Library lainnya:
+Libraries:
 - Fontawesome
 
 #
 
-Link Demo: https://navdplay.github.io/Login-Page/
+<a href="https://navdplay.github.io/Login-Page/">Demo</a>
